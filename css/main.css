@@ -1,0 +1,182 @@
+body {
+  font-size: 16px; }
+
+.encabezado {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(to top, #89899e, #5a5aa5);
+  justify-content: center;
+  padding: 25px 5px 10px 5px;
+  z-index: 1; }
+
+h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 40px;
+  text-align: end; }
+
+h2 {
+  text-align: center;
+  color: #c0adad;
+  padding-bottom: 15px; }
+
+.desenfoque {
+  text-align: end;
+  font-size: 24px;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+nav {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px; }
+
+nav li {
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000; }
+
+nav ul li a:hover {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: white; }
+
+.tablaDeTrabajos {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px; }
+
+.formularioContacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px; }
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.formularioContacto form label {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+input {
+  width: 150px;
+  height: 20px;
+  transition: all 2s; }
+
+input:focus {
+  width: 200px;
+  font-size: 18px; }
+
+h5 {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.parrafo {
+  text-align: center;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 10px; }
+
+.parrafo:hover {
+  text-align: center;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+h4 {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0px 20px 0px; }
+
+.txtStaff {
+  padding: 20px 0px 10px 0px; }
+
+.imagenesTrabajos img {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.cajaUno {
+  background-color: #AC8076;
+  width: 200px;
+  height: 350px; }
+
+.cajaAfuera {
+  background-color: #CE593E;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  margin-top: 10px;
+  padding: 10px; }
+
+.imagenesTrabajos {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(to bottom, #AC8076, #6585a0);
+  justify-content: space-around;
+  flex-direction: row-reverse; }
+
+.imgOne {
+  margin-top: 70px; }
+
+.imgTwo {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.imgThree {
+  margin-top: 70px; }
+
+.gdPadre {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 150px;
+  grid-template-rows: 60px 120px;
+  justify-content: center; }
+
+.border {
+  border: 1px solid black; }
+
+.jFooter {
+  padding: 2rem 1rem;
+  background-color: #D1D2D3;
+  border-radius: 0.3rem; }
+
+.caja_uno {
+  background-color: yellow;
+  width: 250px; }
+
+.caja_dos {
+  background-color: #FF1F00;
+  width: 800px; }
+
+.caja_tres {
+  background-color: #000000;
+  width: 350px; }
