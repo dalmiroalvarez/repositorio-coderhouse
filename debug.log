@@ -21,3 +21,10 @@
 [0125/174208.127:ERROR:crash_report_database_win.cc(455)] unexpected header
 [0125/175708.209:ERROR:crash_report_database_win.cc(455)] unexpected header
 [0125/181208.288:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0125/201627.386:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0125/222135.206:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0125/223135.216:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0125/223135.216:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[0125/223135.218:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0125/223135.218:ERROR:crash_report_database_win.cc(455)] unexpected header
+[0126/162830.493:ERROR:crash_report_database_win.cc(455)] unexpected header
